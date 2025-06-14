@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Young Serif', serif;
+    background-color: #f5e9df;
+    color: #333;
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+
+.container{
+    width: 600px;
+    background: #fff;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.avatar{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 32px;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.55rem;
+    color: #754d28;
+}
+
+ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ul li, ol li {
+    margin-bottom: 0.5rem;
+}
+
+ol li strong {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
+
+.prep-time {
+    background-color: #fdf2f8;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.prep-time ul {
+    list-style-type: disc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    body {
+        padding: 0.5rem;
+    }
+}
